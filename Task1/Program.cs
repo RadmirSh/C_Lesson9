@@ -22,7 +22,7 @@ void SumOfNumbers(int m, int n)
         return res;
         }
     }
-    Console.Write(SummaMN(m - 1, n));
+    Console.Write($"The sum of natural elements are {SummaMN(m - 1, n)} ");
 }
 
 
